@@ -30,7 +30,8 @@ PRODUCT_COPY_FILES += \
 # HW init
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/qmuxd:system/bin/qmuxd \
-    vendor/motorola/triumph/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init
+    vendor/motorola/triumph/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/motorola/triumph/proprietary/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so
 
 # Sensors binaries
 PRODUCT_COPY_FILES += \
@@ -39,7 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/proximityd:system/bin/proximityd \
     vendor/motorola/triumph/proprietary/lightd:system/bin/lightd \
     vendor/motorola/triumph/proprietary/thermald:system/bin/thermald \
-    vendor/motorola/triumph/proprietary/sensors.triumph.so:/system/lib/hw/sensors.triumph.so
+    vendor/motorola/triumph/proprietary/sensors.triumph.so:/system/lib/hw/sensors.triumph.so \
+    vendor/motorola/triumph/proprietary/lights.triumph.so:/system/lib/hw/lights.triumph.so
 
 # other binaries
 PRODUCT_COPY_FILES += \
